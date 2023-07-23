@@ -116,6 +116,17 @@ img {
     border-bottom: 2px solid rgba(255,255,255, 0.1);
 }
 
+.half-height {
+    min-height: 70vh;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255,255,255, 0.1);
+}
+
 .shadow-effect {
     transition: all 0.5s;
 }
